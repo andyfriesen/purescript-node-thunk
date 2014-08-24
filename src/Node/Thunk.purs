@@ -1,6 +1,7 @@
 module Node.Thunk where
 
 import Control.Monad.Eff
+import Control.Monad.Eff.Exception
 import Data.Either
 import Data.Function
 import Global
